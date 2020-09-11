@@ -5,7 +5,8 @@ pipeline {
             steps {
                 
                bat ' echo "Hello World"  '
-			   
+			   bat "mvn package"
+ 
              
                                 
             }
